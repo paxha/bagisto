@@ -19,14 +19,14 @@
                             <img
                                 src="{{ $logo }}"
                                 alt="{{ config('app.name') }}"
-                                style="height: 40px; width: 110px;"
+                                style="height: 48px; width: 48px;"
                             />
                         @else
                             <img
                                 src="{{ bagisto_asset('images/logo.svg', 'shop') }}"
                                 alt="{{ config('app.name') }}"
-                                width="48"
-                                height="48"
+                                width="131"
+                                height="29"
                                 style="width: 156px;height: 40px;"
                             />
                         @endif
