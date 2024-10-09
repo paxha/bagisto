@@ -29,8 +29,8 @@
                     <img
                         src="{{ core()->getCurrentChannel()->logo_url ?? bagisto_asset('images/logo.svg') }}"
                         alt="{{ config('app.name') }}"
-                        width="131"
-                        height="29"
+                        width="48"
+                        height="48"
                     >
                 </a>
             </div>
@@ -146,7 +146,7 @@
                             prices: "{{ core()->getConfigData('sales.taxes.shopping_cart.display_prices') }}",
 
                             subtotal: "{{ core()->getConfigData('sales.taxes.shopping_cart.display_subtotal') }}",
-                            
+
                             shipping: "{{ core()->getConfigData('sales.taxes.shopping_cart.display_shipping_amount') }}",
                         },
 
